@@ -1,0 +1,38 @@
+* {
+    font-family: 'Helvetica Neue Cyr', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.add_account {
+    cursor: pointer;
+    width: 538px;
+    height: 312px;
+    border-radius: 25px;
+    border: 1px solid #4E4E4E;
+    background: #282828;
+    box-shadow: 4px 4px 9px 0px rgba(35, 35, 35, 0.35);
+
+    .block_add {
+        display: flex;
+        padding: 87px 55px 92px 55px;
+        flex-direction: column;
+        align-items: center;
+        gap: 56px;
+
+        .text_add {
+            color: #FFF;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1920px) {
+    .add_account{
+        width: 312px; 
+    }
+} 

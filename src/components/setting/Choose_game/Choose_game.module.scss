@@ -1,0 +1,20 @@
+.item {
+  padding: 10px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  label{
+    width: 100%;
+    flex-direction: row-reverse;
+    cursor: pointer;
+    span:last-child{
+      margin-left: 0;
+      margin-right: 10em;
+    }
+
+  }
+}

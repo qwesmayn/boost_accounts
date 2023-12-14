@@ -1,0 +1,122 @@
+* {
+    font-family: 'Helvetica Neue Cyr', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1E1E1E;
+}
+
+.panel {
+    display: flex;
+}
+
+.sidebar {
+    width: 11%;
+    height: 100vh;
+    background: #1C1C1C;
+    box-shadow: 4px 0px 20px 0px rgba(24, 24, 24, 0.25);
+
+    .logo {
+        padding: 51px 0 29px 0;
+        .img_logo{
+            background-image: url("../../assets/logo.jpg");
+            width: 44.563px;
+            height: 69px;
+            div{
+                box-shadow: 0 35px 53px 5px #4EE87A;
+            }
+        }
+    }
+
+    .logotype {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 43px;
+    }
+
+    .logo_name {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .setting {
+        display: grid;
+        text-align: center;
+        grid-template-rows: repeat(6, 0fr);
+        grid-row-gap: 21px;
+
+        .name_set {
+            color: #4A4A4A;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .icon_setting {
+            text-align: center;
+            grid-template-rows: repeat(6, 2fr);
+
+            svg {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.control_panel {
+    width: 100%;
+
+    .up_info {
+        display: flex;
+        align-items: center;
+        padding: 75px 0 44px 50px;
+
+        .time_logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 104px;
+            height: 45px;
+            border-radius: 10px;
+            background: #4EE87A;
+            margin-right: 16px;
+        }
+
+        .panel_text {
+            span {
+                color: #FFF;
+                text-align: center;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+
+    .connect_accounts {
+        padding: 0 0 0 50px;
+        .text_connect {
+            margin-bottom: 30px;
+            span{
+                color: #5A5A5A;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .list_accounts{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}

@@ -1,0 +1,114 @@
+* {
+    font-family: 'Helvetica Neue Cyr', sans-serif;
+}
+
+.card {
+    width: 538px;
+    border-radius: 25px;
+    background: #282828;
+    margin: 0 45px 45px 0
+}
+
+.image {
+    width: 538px;
+    height: 312px;
+    background: url(../assets/background.png) no-repeat;
+    position: relative;
+}
+
+.profile {
+    padding: 30px;
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    align-items: center;
+    flex-flow: wrap;
+
+    .imageProfile {
+        background: url(../assets/profile.png) no-repeat;
+    }
+
+
+    .profileInfo {
+        margin-left: 16px;
+        margin-right: 125px;
+
+        p {
+            margin-bottom: 6px;
+            margin-top: 0;
+        }
+    }
+
+    .profileName {
+        color: #A0A0A0;
+    }
+
+    .hourNeed {
+        color: #39A37F;
+    }
+
+    .buttonOnOff {
+        border-radius: 100px;
+        background: #702F33;
+        padding: 7px 21px;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        color: #D64952;
+        font-size: 14px;
+    }
+
+    .infoButton {
+        margin-bottom: 2em;
+    }
+
+    .editAccount {
+        border-radius: 10px;
+        background: #373737;
+        padding: 16px;
+        border: none;
+        color: #fff;
+        margin-top: 20px;
+    }
+}
+
+.setting_show {
+    display: none;
+}
+
+
+.buttons {
+    display: grid;
+    padding: 30px;
+
+    .key {
+        width: 46px;
+        height: 46px;
+        border-radius: 50px;
+        background: #373737;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .play {
+        width: 46px;
+        height: 46px;
+        border-radius: 50px;
+        background: #373737;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .settings {
+        width: 46px;
+        height: 46px;
+        border-radius: 50px;
+        background: #373737;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
